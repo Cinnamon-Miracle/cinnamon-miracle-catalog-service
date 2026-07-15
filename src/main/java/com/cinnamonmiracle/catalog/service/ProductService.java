@@ -238,6 +238,10 @@ public class ProductService {
         if (id == null || id.isBlank()) {
             return false;
         }
+        // Accept both migrated Mongo ObjectIds (24 hex) and generated UUIDs.
+        if (id.matches("[0-9a-fA-F]{24}")) {
+            return true;
+        }
         try {
             java.util.UUID.fromString(id);
             return true;
