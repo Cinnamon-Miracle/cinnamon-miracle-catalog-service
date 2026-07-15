@@ -28,7 +28,10 @@ public class CategoryService {
             long totalCategories = categoryRepository.count();
             int totalPages = (int) Math.ceil((double) totalCategories / size);
 
-            List<Category> categories = categoryRepository.findAll(PageRequest.of(page - 1, size)).getContent();
+            // Sort by id ascending to match MongoDB's natural (_id insertion) order.
+            List<Category> categories = categoryRepository.findAll(PageRequest.of(page - 1, size,
+                    org.springframework.data.domain.Sort.by(org.springframework.data.domain.Sort.Direction.ASC, "id")))
+                    .getContent();
 
             Map<String, Object> pagination = new LinkedHashMap<>();
             pagination.put("currentPage", page);

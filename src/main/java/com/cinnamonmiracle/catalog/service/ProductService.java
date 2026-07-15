@@ -36,7 +36,10 @@ public class ProductService {
             long totalProducts = productRepository.count();
             int totalPages = (int) Math.ceil((double) totalProducts / size);
 
-            List<Product> products = productRepository.findAll(PageRequest.of(page - 1, size)).getContent();
+            // Sort by id ascending to match MongoDB's natural (_id insertion) order.
+            List<Product> products = productRepository.findAll(PageRequest.of(page - 1, size,
+                    org.springframework.data.domain.Sort.by(org.springframework.data.domain.Sort.Direction.ASC, "id")))
+                    .getContent();
 
             Map<String, Object> pagination = new LinkedHashMap<>();
             pagination.put("currentPage", page);

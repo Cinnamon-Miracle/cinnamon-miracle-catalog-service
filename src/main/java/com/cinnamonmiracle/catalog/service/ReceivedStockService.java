@@ -27,7 +27,9 @@ public class ReceivedStockService {
 
     public Map<String, Object> getAllReceivedStocks() {
         try {
-            List<ReceivedStock> data = receivedStockRepository.findAll();
+            // Sort by id ascending to match MongoDB's natural (_id insertion) order.
+            List<ReceivedStock> data = receivedStockRepository.findAll(
+                    org.springframework.data.domain.Sort.by(org.springframework.data.domain.Sort.Direction.ASC, "id"));
             Map<String, Object> response = new LinkedHashMap<>();
             response.put("success", true);
             response.put("count", data.size());
