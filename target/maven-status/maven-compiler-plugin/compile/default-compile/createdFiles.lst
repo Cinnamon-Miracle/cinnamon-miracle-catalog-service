@@ -1,0 +1,16 @@
+com\cinnamonmiracle\catalog\repository\ReceivedStockRepository.class
+com\cinnamonmiracle\catalog\controller\InternalProductController.class
+com\cinnamonmiracle\catalog\service\CategoryService.class
+com\cinnamonmiracle\catalog\controller\ProductController.class
+com\cinnamonmiracle\catalog\CatalogServiceApplication.class
+com\cinnamonmiracle\catalog\dto\ProductInternalDto.class
+com\cinnamonmiracle\catalog\controller\CategoryController.class
+com\cinnamonmiracle\catalog\entity\Category.class
+com\cinnamonmiracle\catalog\repository\CategoryRepository.class
+com\cinnamonmiracle\catalog\repository\ProductRepository.class
+com\cinnamonmiracle\catalog\entity\Product.class
+com\cinnamonmiracle\catalog\entity\ReceivedStock.class
+com\cinnamonmiracle\catalog\service\ReceivedStockService.class
+com\cinnamonmiracle\catalog\config\WebConfig.class
+com\cinnamonmiracle\catalog\service\ProductService.class
+com\cinnamonmiracle\catalog\controller\ReceivedStockController.class

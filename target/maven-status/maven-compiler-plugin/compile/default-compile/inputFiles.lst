@@ -1,0 +1,16 @@
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\CatalogServiceApplication.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\config\WebConfig.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\controller\CategoryController.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\controller\InternalProductController.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\controller\ProductController.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\controller\ReceivedStockController.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\dto\ProductInternalDto.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\entity\Category.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\entity\Product.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\entity\ReceivedStock.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\repository\CategoryRepository.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\repository\ProductRepository.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\repository\ReceivedStockRepository.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\service\CategoryService.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\service\ProductService.java
+D:\cinnamon-backend\cinnamon-miracle-microservices\catalog-service\src\main\java\com\cinnamonmiracle\catalog\service\ReceivedStockService.java
